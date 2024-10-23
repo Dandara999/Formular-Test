@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>New user</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <h1>Neues Konto</h1>
+        </section>
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="username">Benutzername</label>
+                <input type="text" id="username" placeholder="Geben Sie die Benutzername ein..." />
+                <a>Hier ist die Fehlermeldung</a>
+            </div>
+
+            <div class="form-content">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein..." />
+                <a>Hier ist die Fehlermeldung</a>
+            </div>
+
+            <div class="form-content">
+                <label for="passwort">Passwort</label>
+                <input type="password" id="passwort" placeholder="Geben Sie ihr Passwort ein..." />
+                <a>Hier ist die Fehlermeldung</a>
+            </div>
+
+            <div class="form-content">
+                <label for="password-confirmation">Passwortbestätigung</label>
+                <input type="password" id="password-confirmation" placeholder="Geben Sie Ihr Passwort erneut ein..." />
+                <a>Hier ist die Fehlermeldung</a>
+            </div>
+
+            <button type="submit">Anmelden</button>
+        </form>
+    </div>
+
+    <!-- Mover o script para o final do body -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
